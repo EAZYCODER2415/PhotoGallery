@@ -1,0 +1,67 @@
+body {
+    background-color: #333;
+}
+
+header {
+    background-image: linear-gradient(to bottom,lightgreen,skyblue);
+}
+
+.header_title h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: monospace;
+}
+
+.gallery_info h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallery_info h3 {
+    text-align: center;
+}
+
+.gallery_info p {
+    text-align: center;
+}
+
+main {
+    background-color: skyblue;
+    border: solid 10px blue;
+}
+
+.gallery_info figure {
+    text-align: center;
+}
+
+footer {
+    background-color: skyblue;
+    border: solid 10px blue;
+}
+
+table {
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+
+td {
+    border: 5px solid orange;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}

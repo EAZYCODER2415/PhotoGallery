@@ -1,0 +1,137 @@
+body {
+    background-color: #333;
+}
+
+header {
+    background-image: linear-gradient(to bottom,lightgreen,skyblue);
+}
+
+.header_title h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: monospace;
+}
+
+span {
+    text-align: center;
+    background-color: #6ebf60;
+    font-size: 20px;
+    color: black;
+}
+
+.gallery_info h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.gallery_info h3 {
+    text-align: center;
+}
+
+.gallery_info p {
+    text-align: center;
+}
+
+.gallery_info figure {
+    text-align: center;
+}
+
+.gallery_info figcaption {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #999;
+    border: solid 10px orange;
+    padding: 15px;
+}
+
+nav {
+    background-color: #999;
+    border: solid 10px orange;
+    padding: 15px;
+}
+
+table {
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+
+td {
+    border: 5px solid orange;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 12px;
+font-style: italic;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.readbtn {
+    padding: 10px;
+    background-color: gold;
+    color: black;
+}
+
+.back-to-home {
+    padding: 10px;
+    background-color: #6ebf60;
+    color: black;
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
